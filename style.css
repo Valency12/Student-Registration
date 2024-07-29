@@ -1,0 +1,107 @@
+html, video{
+    min-height: 80%;
+}
+body{
+    background-image: url("/home/valency/Imágenes/fondo.png");
+    font-family: Arial, sans-serif;
+    background-attachment: fixed ;
+}
+h1{
+    font-family: sans-serif;
+    font-size: 40px;
+    color: #133E77; 
+    line-height: 0;
+    text-align: center;
+}
+p{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #fff; 
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height: 10px;
+}
+.container{
+    width: 100%;
+    max-width: 600px;
+    margin: 30px auto; 
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.411);
+}
+label, legend{
+    margin-left: 10px;
+    font-family: sans-serif;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff; 
+    display: block;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.377);
+}
+input, select, textarea{
+    outline-color:#133E77; 
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+}
+
+input[type="radio"]{
+    font-size: 15px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+textarea[type="text"],
+select{
+    font-family: sans-serif;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc; 
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.288);
+}
+
+.inline{
+    width: 15px;
+    height: 10px;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #ccc; 
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+a{
+    color:#2A5082;
+}
+
+input[type="submit"]{
+    width: 400px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-left: 95px;
+    font-size: 20px;
+    background-color: #133E77;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.185);
+ 
+}
+input[type="submit"]:hover{
+    background-color: #2A5082;
+}
+
+fieldset{
+    border: none;
+    border-top: 3px solid #5b7ca8;
+    padding: 2rem 0;
+}

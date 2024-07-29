@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Student Registration</title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+
+<body>
+    <div class="container">
+        <h1> Student Registration</h1>
+            <p>Help us know more about you!</p>
+   
+        <form method="post">
+       
+        <fieldset>
+            <label for="full-name"> Name</label>
+                <input id="full-name" name="full-name" type="text" placeholder="Enter your name" required />
+       
+        
+            <label for="age"> Age</label>
+                <input id="age" name="age" type="number" placeholder="Enter your age" />
+            
+           
+            <label for="gender"> Gender</label>
+                <select id="gender" name="gender" placeholder="Enter your gender">
+                    <option value="">Select one</option>
+                    <option value="1">Women </option>
+                    <option value="2">Man</option>
+                </select>
+          
+            <label for="nacionality"> Nacionality</label>
+                <input id="nacionality" name="nacionality" type="text" placeholder="Enter your nacionality"/>
+         
+            <label for="direction">Direction</label>
+                <input type="text" id="direction" name="direction" required placeholder="Enter your direction">
+         
+            <label for="phone">Phone</label>
+                <input id="phone" name="phone" type="text" required placeholder="Enter your phone"/>
+           
+            <label for="email"> Email</label>
+                <input id="email" name="email" type="email" placeholder="Enter your email"/>
+            
+            <label for="description">Tell us about you</label>
+            <textarea id="description" name="description" type="text" placeholder="Enter your description"></textarea>
+
+            <label for="terms-and-conditions"></label>
+                <input class="inline" type="checkbox"/>I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+            
+
+            <input type="submit" value="Submit">
+
+        </fieldset>
+    </form>
+    </div>
+
+</body>
+</html>
