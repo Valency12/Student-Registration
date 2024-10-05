@@ -1,6 +1,6 @@
-html, video{
-    min-height: 80%;
-}
+/*html, video{
+    /*min-height: 80%;
+}*/
 body{
     background-image: url("img/fondo.png");
     font-family: Arial, sans-serif;
@@ -10,8 +10,9 @@ h1{
     font-family: sans-serif;
     font-size: 40px;
     color: #133E77; 
-    line-height: 0;
+    /*line-height: 0;*/
     text-align: center;
+    display: block;
 }
 p{
     font-family: sans-serif;
@@ -21,21 +22,26 @@ p{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    line-height: 10px;
+    /*line-height: 10px;*/
 }
 .container{
-    width: 100%;
+    width: 600px;
     max-width: 600px;
+    min-width: 400px;
     margin: 30px auto; 
+    display: block; 
     padding: 20px;
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.5);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.411);
 }
 label, legend{
-    margin-left: 10px;
+    /*margin-left: 10px;*/
+    /*margin-bottom: 0px;*/
+    margin: 0px auto;
+
+    /*estilo*/
     font-family: sans-serif;
-    margin-bottom: 0px;
     font-weight: bold;
     font-size: 20px;
     color: #fff; 
@@ -58,8 +64,9 @@ input[type="number"],
 input[type="email"],
 textarea[type="text"],
 select{
+    /*max-width: auto;*/
     font-family: sans-serif;
-    width: 100%;
+    /*width: 100%;*/
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ccc; 
